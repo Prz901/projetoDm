@@ -7,11 +7,7 @@ function foreachu(arr, funct){
     }
     return array
 }
-
-
-
 console.log(foreachu(arr, e => e * 2))
-
 
 // arr.forEach(element => {
 //     console.log(element)

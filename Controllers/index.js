@@ -2,10 +2,14 @@
 const express = require('express'),
     router = express.Router()
 
+const Customer = require('./customer')
+const Seller = require('./seller')
+const Auth = require('./auth')
 
-const fruit = require('./Fruit/index')
+router.use('/api/customer', Customer)
+router.use('/api/seller', Seller)
+router.use('/api/auth', Auth)
 
-router.use('/fruit', fruit)
 
 // 404 setup
 router.use('*', (req, res) => {

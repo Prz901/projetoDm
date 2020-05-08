@@ -12,3 +12,5 @@ module.exports.setUpServer = () => {
 
   return app
 }
+// usuario l de cada loja -  loja de fruta - frutas
+// usuario c -  crud de compra
